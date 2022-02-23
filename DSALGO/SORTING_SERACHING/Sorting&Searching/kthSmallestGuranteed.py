@@ -35,7 +35,7 @@ def kthSmallest(arr,low,right,k):
             median.append(gmedain)
             i+=1
         if(i*5<size):
-            gmedain=findMedian(arr,low+i*5,n%5)
+            gmedain=findMedian(arr,low+i*5,size%5)
             median.append(gmedain)
             i+=1
         
